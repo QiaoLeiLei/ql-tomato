@@ -118,7 +118,7 @@ struct MenuBarContentView: View {
             // 关于和退出
             VStack(spacing: 4) {
                 Button("关于番茄钟") {
-                     NSWorkspace.shared.open(URL(string: "https://github.com/")!)
+                     NSWorkspace.shared.open(URL(string: "https://github.com/QiaoLeiLei/ql-tomato")!)
                  }
                  
                 Divider()
